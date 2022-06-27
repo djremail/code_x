@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Qubit</title>
+</head>
+
+<body>
+    <div class="for_page">
+        <div class="page">
+            <!-- Togle & Side Bar -->
+            <div class="sidebar">
+                <ul class="menu">
+                    <li><a href="#about_us" onclick="toggleMenu();">About us</a></li>
+                    <li><a href="#nfts" onclick="toggleMenu();">NFTs</a></li>
+                    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                    <ul class="link_menu">
+                        <li class="item_menu">
+                            <a class="link_item_menu" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="item_menu">
+                            <a class="link_item_menu" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="item_menu">
+                            <a class="link_item_menu" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                    <div class="header_links">
+                        <a href="#" class="header_link_btn" onclick="toggleMenu();">View on OpenSea</a>
+                    </div>
+
+                    <!-- <div class="sidebar_icon">
+                        <div class="user">
+                            <a href="#"><i class="fa-solid fa-user-large"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </div>
+                    </div> -->
+                </ul>
+            </div>
+            <!-- Side Bar -->
+            <!-- HEADER -->
+            <header class="header">
+                <div class="container header_container">
+                    <div class="header_logo">
+                        <a href="#"><img src="./img/header/logo.png" alt="logo boosted_USA"></a>
+                        <div class="header_nav">
+                            <nav class="nav_menu">
+                                <ul class="sub_menu">
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#about_us">About us</a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#nfts">NFTs</a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header_links">
+                        <div class="header_nav_icon">
+                            <nav class="nav_menu">
+                                <ul class="sub_menu">
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a href="#" class="header_link_btn">View on OpenSea</a>
+                    </div>
+                    <div class="toggle" onclick="toggleMenu();"></div>
+                </div>
+            </header>
+            <!-- MAIN -->
+            <main class="main">
+                <!--Welcome-->
+                <div class="welcome">
+                    <div class="container welcome_container">
+                        <div class="item_text">
+                            <p>EXTRAORDINARY NFTs</p>
+                            <h2>Change your <br>Digital Experience</h2>
+                            <h3>Digital Experience <br>varius vel leo. Donec diam arcu, porta et magna at</h3>
+                        </div>
+                        <div class="item_image">
+                            <img src="./img/main/welcome/image.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <!--Carusel-->
+                <section class="slider-carousel">
+                    <div class="owl-carousel owl-theme" id="carousel_partners">
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_1.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_2.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_3.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_4.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_5.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_6.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_7.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_8.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./img/main/carusel/img_9.png" alt="nft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Abot Us -->
+                <section class="about_us" id="about_us">
+                    <div class="container about_us_container">
+                        <div class="text_wrapper">
+                            <h2>Hey there, we are</h2>
+                            <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam</p>
+                            <p>arcu, porta et magna at</p>
+                        </div>
+                        <div class="items">
+                            <div class="items_btn_wrapper">
+                                <a class="about_us_item_btn" href="#">Jack</a>
+                                <a class="about_us_item_btn" href="#">Suni</a>
+                                <a class="about_us_item_btn" href="#">Colin</a>
+                            </div>
+                            <div class="items_content_wrapper">
+                                <div class="item_img">
+                                    <img src="./img/main/about_us/img.png" alt="image">
+                                </div>
+                                <div class="item_text">
+                                    <p>Digital Artist</p>
+                                    <h3>Pellentesque blandit <br>in quam rhoncus</h3>
+                                    <h4>Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam
+                                        eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices
+                                        tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non
+                                        quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque
+                                        nisi nisl, rutrum ac diam et,
+                                        semper commodo quam</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Our_work -->
+                <section class="our_work">
+                    <div class="container our_work_container">
+                        <div class="items_work_wrapper">
+                            <div class="item_img">
+                                <img src="./img/main/our_work/image.png" alt="image">
+                            </div>
+                            <div class="item_text">
+                                <h4>our work</h4>
+                                <h2>“Um… what’s going on here?”</h2>
+                                <p>Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum
+                                    consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et,
+                                    porta in sapien.</p>
+                                <div class="link_wrapper">
+                                    <div></div>
+                                    <a href="#">About Codx</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items_skills_wrapper">
+                            <div class="item_text">
+                                <div class="item">
+                                    <div class="number">01</div>
+                                    <h3>Motion Graphic</h3>
+                                    <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu,
+                                        porta et magna
+                                        at</p>
+                                </div>
+                                <div class="item">
+                                    <div class="number">02</div>
+                                    <h3>Digital Illustration</h3>
+                                    <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu,
+                                        porta et magna at</p>
+                                </div>
+                                <div class="item">
+                                    <div class="number">03</div>
+                                    <h3>Photography</h3>
+                                    <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu,
+                                        porta et magna at</p>
+                                </div>
+                            </div>
+                            <div class="item_img">
+                                <img src="./img/main/our_work/image_2.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Join_Us -->
+                <section class="join_us">
+                    <div class="container join_us_container">
+                        <h3>Join Us and Discover <br> our most precious NFT</h3>
+                        <p>Suspendisse sem neque, auctor a elementum ut, varius vel <br> leo. Donec diam arcu, porta et
+                            magna at</p>
+                        <a href="#">View on OpenSea</a>
+                    </div>
+                </section>
+                <!-- Collection -->
+                <section class="collection">
+                    <div class="container collection_container">
+                        <h2>Browse by Collections</h2>
+                        <div class="items_wrapper">
+                            <div class="items">
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_1.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Collectibles</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_2.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Art</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_3.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Photography</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items collection_items" style="display: none;">
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_1.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Collectibles</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_2.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Art</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_3.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Photography</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items collection_items" style="display: none;">
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_1.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Collectibles</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_2.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Art</a>
+                                    </div>
+                                </div>
+                                <div class="collection_item">
+                                    <img src="./img/main/collection/img_3.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <a href="#">Photography</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection_btn">View all</div>
+                    </div>
+                </section>
+                <!-- NFTs -->
+                <section class="nfts" id="nfts">
+                    <div class="container nfts_container">
+                        <h2>Top NFT</h2>
+                        <div class="items_wrapper">
+                            <div class="items">
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_1.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>White Bear</p>
+                                            <a href="#">#54385</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_2.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Happy Luca</p>
+                                            <a href="#">#54395</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_3.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Dodo</p>
+                                            <a href="#">#54376</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_4.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Nano Nano</p>
+                                            <a href="#">#54348</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_5.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Zombie</p>
+                                            <a href="#">#54337</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_6.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Pink Devil</p>
+                                            <a href="#">#54392</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items nfts_items" style="display: none;">
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_1.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>White Bear</p>
+                                            <a href="#">#54385</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_2.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Happy Luca</p>
+                                            <a href="#">#54395</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_3.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Dodo</p>
+                                            <a href="#">#54376</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items nfts_items" style="display: none;">
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_4.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Nano Nano</p>
+                                            <a href="#">#54348</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_5.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Zombie</p>
+                                            <a href="#">#54337</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./img/main/NFTs/img_6.png" alt="product">
+                                    <div class="link_wrapper">
+                                        <div class="text_wrapper">
+                                            <p>Pink Devil</p>
+                                            <a href="#">#54392</a>
+                                        </div>
+                                        <div class="icon_wrapper">
+                                            <div class="watch icon_item"><i class="fa-solid fa-eye"></i></div>
+                                            <div class="lock icon_item"><i class="fa-solid fa-lock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nfts_btn">View all</div>
+                    </div>
+                </section>
+                <!-- Acardeon -->
+                <section class="main_acardeon">
+                    <div class="container acardeon_container">
+                        <h2 class="title">FAQ</h2>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, 
+                                    a form of distributed ledger. The ownership of an NFT is recorded in the blockchain, and can be transferred by the owner, allowing NFTs to be sold 
+                                    and traded.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Quisque at justo semper, faucibus eros sit amet, scelerisque lorem.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">"'NFT' stands for non-fungible token," explains Gary Vaynerchuck, an entrepreneur and CEO otherwise known in the NFT community and by his fans as Gary Vee. "When people say, 
+                                    'Well, what does that mean?</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Nulla eget justo at eros varius consequat.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">A Non-fungible Token (NFT) is basically a digital asset or can be called as a cryptographic asset having a unique identification code and metadata which differentiate 
+                                    it from a fungible token. As with cryptocurrencies, they cannot be traded or exchanged at 
+                                    equivalent values.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        Vivamus non nibh quis massa laoreet semper et eu quam
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">An NFT — short for non-fungible token — essentially allows its buyer to say that they own the original copy of a digital file, 
+                                    in the same way you might own the original copy of a piece of physical art or the master file of a 
+                                    music recording.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                        aria-controls="flush-collapseFive">
+                                        Morbi quis nisi tempus, mollis turpis ut, mollis massa.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">What is NFT gaming? Non-Fungible Tokens, or NFTs, are certificates of ownership of a digital good made in limited numbers. For games this can be in-game items, 
+                                    collectibles, and avatars.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container footer_container">
+                    <div class="footer_contact" id="contact">
+                        <div class="footer_logo">
+                            <a class="footer_logo_link" href="#"><img src="./img/footer/logo.png" alt="logo"></a>
+                            <p>Join the community</p>
+                            <ul class="icon">
+                                <li><i class="fa-brands fa-twitter"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-facebook-f"></i></li>
+                            </ul>
+                        </div>
+                        <nav class="footer_item_wrapper">
+                            <ul class="footer_item">
+                                <p>Site</p>
+                                <a href="/"><li>About us</li></a>
+                                <a href="/"><li>NFTs</li></a>
+                                <a href="/"><li>Contact</li></a>
+                            </ul>
+                            <ul class="footer_item">
+                                <p>Utility</p>
+                                <a href="/"><li>Style guide</li></a>
+                                <a href="/"><li>Lincensing</li></a>
+                                <a href="/"><li>404</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer_submit">
+                        <h3>Stay in the loop</h3>
+                        <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+                        <form>
+                            <input type="email" placeholder="Your email address">
+                            <button>Sign up</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="container footer2_container">
+                    <p>© 2022 All rights reserved.</p>
+                    <h4>Created By <span>Udesly</span>  Powered By <span>Webflow</span></h4>
+                </div>
+            </footer>
+        </div>
+        <!-- ===Page=== -->
+    </div>
+    <!-- Script JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="./js/style.js"></script>
+</body>
+
+</html>
